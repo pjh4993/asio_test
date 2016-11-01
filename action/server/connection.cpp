@@ -27,10 +27,8 @@ namespace http{
 						if(!ec){
 							dlog("connection::do_read","read_request");
 							request_parser::result_type result;
-							std::tie(result,std::ignore) = request_parser_.parse(
-									request_, buffer_.data(), buffer_.data() + bytes_transferred);
-							dlog("connection::do_read","method "+request_.method);
-							dlog("connection::do_read","uri "+request_.uri);
+							std::tie(result) = request_parser_.parse(
+									request_, buffer_.data(), bytes_transferred);
 							if(result == request_parser::good){
 								dlog("connection::do_read","request_parser::good");
 								request_handler_.handle_request(request_,reply_);
@@ -50,10 +48,7 @@ namespace http{
 		}
 		void connection::do_write(){
 			auto self(shared_from_this());
-			std::vector<boost::asio::const_buffer> data = reply_.to_buffers();
-			for(boost::asio::const_buffer cb : data)
-				dlog("connection::do_write",std::string(boost::asio::buffer_cast<const char*>(cb)));
-			boost::asio::async_write(socket_,reply_.to_buffers(),
+			boost::asio::async_write(socket_,boost::asio::buffer(reply_.to_buffer(sizeof(reply_)),sizeof(reply_)),
 					[this,self](boost::system::error_code ec, std::size_t size){
 						if(!ec){
 							boost::system::error_code ignored_ec;
