@@ -16,7 +16,7 @@ namespace http{
 							char* begin, int bytes_transferred){
                     memcpy(&req, begin, sizeof(char)*bytes_transferred);
                     if(req.body_length != bytes_transferred + sizeof(request::method_type)){
-                        return std::make_tuple(indeterminate);
+                        return std::make_tuple(bad);
                     }else{
                         switch(req.method){
                             case request::sign_in:
@@ -33,9 +33,8 @@ namespace http{
                                     return std::make_tuple(bad);
                                 break;
                         }
-                        return std::make_tuple(good);
                     }
-                    return std::make_tuple(indeterminate);
+                    return std::make_tuple(good);
 				}
 			private:
 		};

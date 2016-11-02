@@ -1,0 +1,1003 @@
+client.cpp: In lambda function:
+client.cpp:47:87: error: no matching function for call to ‘bind(<unresolved overloaded function type>, promise_type*)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1586:5: note: candidate: template<class R, class F> boost::_bi::bind_t<R, F, boost::_bi::list0> boost::bind(F)
+     BOOST_BIND(F f)
+     ^
+/usr/include/boost/bind/bind.hpp:1586:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 1 argument, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1594:5: note: candidate: template<class R, class F, class A1> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_1<A1>::type> boost::bind(F, A1)
+     BOOST_BIND(F f, A1 a1)
+     ^
+/usr/include/boost/bind/bind.hpp:1594:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   couldn't deduce template parameter ‘R’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1602:5: note: candidate: template<class R, class F, class A1, class A2> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_2<A1, A2>::type> boost::bind(F, A1, A2)
+     BOOST_BIND(F f, A1 a1, A2 a2)
+     ^
+/usr/include/boost/bind/bind.hpp:1602:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 3 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1610:5: note: candidate: template<class R, class F, class A1, class A2, class A3> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_3<A1, A2, A3>::type> boost::bind(F, A1, A2, A3)
+     BOOST_BIND(F f, A1 a1, A2 a2, A3 a3)
+     ^
+/usr/include/boost/bind/bind.hpp:1610:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 4 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1618:5: note: candidate: template<class R, class F, class A1, class A2, class A3, class A4> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_4<A1, A2, A3, A4>::type> boost::bind(F, A1, A2, A3, A4)
+     BOOST_BIND(F f, A1 a1, A2 a2, A3 a3, A4 a4)
+     ^
+/usr/include/boost/bind/bind.hpp:1618:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 5 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1626:5: note: candidate: template<class R, class F, class A1, class A2, class A3, class A4, class A5> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_5<A1, A2, A3, A4, A5>::type> boost::bind(F, A1, A2, A3, A4, A5)
+     BOOST_BIND(F f, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5)
+     ^
+/usr/include/boost/bind/bind.hpp:1626:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 6 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1634:5: note: candidate: template<class R, class F, class A1, class A2, class A3, class A4, class A5, class A6> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_6<A1, A2, A3, A4, A5, A6>::type> boost::bind(F, A1, A2, A3, A4, A5, A6)
+     BOOST_BIND(F f, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6)
+     ^
+/usr/include/boost/bind/bind.hpp:1634:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 7 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1642:5: note: candidate: template<class R, class F, class A1, class A2, class A3, class A4, class A5, class A6, class A7> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_7<A1, A2, A3, A4, A5, A6, A7>::type> boost::bind(F, A1, A2, A3, A4, A5, A6, A7)
+     BOOST_BIND(F f, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7)
+     ^
+/usr/include/boost/bind/bind.hpp:1642:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 8 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1650:5: note: candidate: template<class R, class F, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_8<A1, A2, A3, A4, A5, A6, A7, A8>::type> boost::bind(F, A1, A2, A3, A4, A5, A6, A7, A8)
+     BOOST_BIND(F f, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8)
+     ^
+/usr/include/boost/bind/bind.hpp:1650:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 9 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1658:5: note: candidate: template<class R, class F, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8, class A9> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_9<A1, A2, A3, A4, A5, A6, A7, A8, A9>::type> boost::bind(F, A1, A2, A3, A4, A5, A6, A7, A8, A9)
+     BOOST_BIND(F f, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8, A9 a9)
+     ^
+/usr/include/boost/bind/bind.hpp:1658:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 10 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1668:5: note: candidate: template<class R, class F> boost::_bi::bind_t<R, F, boost::_bi::list0> boost::bind(boost::type<R>, F)
+     BOOST_BIND(boost::type<R>, F f)
+     ^
+/usr/include/boost/bind/bind.hpp:1668:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1676:5: note: candidate: template<class R, class F, class A1> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_1<A1>::type> boost::bind(boost::type<R>, F, A1)
+     BOOST_BIND(boost::type<R>, F f, A1 a1)
+     ^
+/usr/include/boost/bind/bind.hpp:1676:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1684:5: note: candidate: template<class R, class F, class A1, class A2> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_2<A1, A2>::type> boost::bind(boost::type<R>, F, A1, A2)
+     BOOST_BIND(boost::type<R>, F f, A1 a1, A2 a2)
+     ^
+/usr/include/boost/bind/bind.hpp:1684:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1692:5: note: candidate: template<class R, class F, class A1, class A2, class A3> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_3<A1, A2, A3>::type> boost::bind(boost::type<R>, F, A1, A2, A3)
+     BOOST_BIND(boost::type<R>, F f, A1 a1, A2 a2, A3 a3)
+     ^
+/usr/include/boost/bind/bind.hpp:1692:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1700:5: note: candidate: template<class R, class F, class A1, class A2, class A3, class A4> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_4<A1, A2, A3, A4>::type> boost::bind(boost::type<R>, F, A1, A2, A3, A4)
+     BOOST_BIND(boost::type<R>, F f, A1 a1, A2 a2, A3 a3, A4 a4)
+     ^
+/usr/include/boost/bind/bind.hpp:1700:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1708:5: note: candidate: template<class R, class F, class A1, class A2, class A3, class A4, class A5> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_5<A1, A2, A3, A4, A5>::type> boost::bind(boost::type<R>, F, A1, A2, A3, A4, A5)
+     BOOST_BIND(boost::type<R>, F f, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5)
+     ^
+/usr/include/boost/bind/bind.hpp:1708:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1716:5: note: candidate: template<class R, class F, class A1, class A2, class A3, class A4, class A5, class A6> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_6<A1, A2, A3, A4, A5, A6>::type> boost::bind(boost::type<R>, F, A1, A2, A3, A4, A5, A6)
+     BOOST_BIND(boost::type<R>, F f, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6)
+     ^
+/usr/include/boost/bind/bind.hpp:1716:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1724:5: note: candidate: template<class R, class F, class A1, class A2, class A3, class A4, class A5, class A6, class A7> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_7<A1, A2, A3, A4, A5, A6, A7>::type> boost::bind(boost::type<R>, F, A1, A2, A3, A4, A5, A6, A7)
+     BOOST_BIND(boost::type<R>, F f, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7)
+     ^
+/usr/include/boost/bind/bind.hpp:1724:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1732:5: note: candidate: template<class R, class F, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_8<A1, A2, A3, A4, A5, A6, A7, A8>::type> boost::bind(boost::type<R>, F, A1, A2, A3, A4, A5, A6, A7, A8)
+     BOOST_BIND(boost::type<R>, F f, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8)
+     ^
+/usr/include/boost/bind/bind.hpp:1732:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1740:5: note: candidate: template<class R, class F, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8, class A9> boost::_bi::bind_t<R, F, typename boost::_bi::list_av_9<A1, A2, A3, A4, A5, A6, A7, A8, A9>::type> boost::bind(boost::type<R>, F, A1, A2, A3, A4, A5, A6, A7, A8, A9)
+     BOOST_BIND(boost::type<R>, F f, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8, A9 a9)
+     ^
+/usr/include/boost/bind/bind.hpp:1740:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1752:5: note: candidate: template<class F> boost::_bi::bind_t<boost::_bi::unspecified, F, boost::_bi::list0> boost::bind(F)
+     BOOST_BIND(F f)
+     ^
+/usr/include/boost/bind/bind.hpp:1752:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 1 argument, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1760:5: note: candidate: template<class F, class A1> boost::_bi::bind_t<boost::_bi::unspecified, F, typename boost::_bi::list_av_1<A1>::type> boost::bind(F, A1)
+     BOOST_BIND(F f, A1 a1)
+     ^
+/usr/include/boost/bind/bind.hpp:1760:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   couldn't deduce template parameter ‘F’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1768:5: note: candidate: template<class F, class A1, class A2> boost::_bi::bind_t<boost::_bi::unspecified, F, typename boost::_bi::list_av_2<A1, A2>::type> boost::bind(F, A1, A2)
+     BOOST_BIND(F f, A1 a1, A2 a2)
+     ^
+/usr/include/boost/bind/bind.hpp:1768:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 3 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1776:5: note: candidate: template<class F, class A1, class A2, class A3> boost::_bi::bind_t<boost::_bi::unspecified, F, typename boost::_bi::list_av_3<A1, A2, A3>::type> boost::bind(F, A1, A2, A3)
+     BOOST_BIND(F f, A1 a1, A2 a2, A3 a3)
+     ^
+/usr/include/boost/bind/bind.hpp:1776:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 4 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1784:5: note: candidate: template<class F, class A1, class A2, class A3, class A4> boost::_bi::bind_t<boost::_bi::unspecified, F, typename boost::_bi::list_av_4<A1, A2, A3, A4>::type> boost::bind(F, A1, A2, A3, A4)
+     BOOST_BIND(F f, A1 a1, A2 a2, A3 a3, A4 a4)
+     ^
+/usr/include/boost/bind/bind.hpp:1784:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 5 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1792:5: note: candidate: template<class F, class A1, class A2, class A3, class A4, class A5> boost::_bi::bind_t<boost::_bi::unspecified, F, typename boost::_bi::list_av_5<A1, A2, A3, A4, A5>::type> boost::bind(F, A1, A2, A3, A4, A5)
+     BOOST_BIND(F f, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5)
+     ^
+/usr/include/boost/bind/bind.hpp:1792:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 6 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1800:5: note: candidate: template<class F, class A1, class A2, class A3, class A4, class A5, class A6> boost::_bi::bind_t<boost::_bi::unspecified, F, typename boost::_bi::list_av_6<A1, A2, A3, A4, A5, A6>::type> boost::bind(F, A1, A2, A3, A4, A5, A6)
+     BOOST_BIND(F f, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6)
+     ^
+/usr/include/boost/bind/bind.hpp:1800:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 7 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1808:5: note: candidate: template<class F, class A1, class A2, class A3, class A4, class A5, class A6, class A7> boost::_bi::bind_t<boost::_bi::unspecified, F, typename boost::_bi::list_av_7<A1, A2, A3, A4, A5, A6, A7>::type> boost::bind(F, A1, A2, A3, A4, A5, A6, A7)
+     BOOST_BIND(F f, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7)
+     ^
+/usr/include/boost/bind/bind.hpp:1808:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 8 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1816:5: note: candidate: template<class F, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8> boost::_bi::bind_t<boost::_bi::unspecified, F, typename boost::_bi::list_av_8<A1, A2, A3, A4, A5, A6, A7, A8>::type> boost::bind(F, A1, A2, A3, A4, A5, A6, A7, A8)
+     BOOST_BIND(F f, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8)
+     ^
+/usr/include/boost/bind/bind.hpp:1816:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 9 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:1824:5: note: candidate: template<class F, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8, class A9> boost::_bi::bind_t<boost::_bi::unspecified, F, typename boost::_bi::list_av_9<A1, A2, A3, A4, A5, A6, A7, A8, A9>::type> boost::bind(F, A1, A2, A3, A4, A5, A6, A7, A8, A9)
+     BOOST_BIND(F f, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8, A9 a9)
+     ^
+/usr/include/boost/bind/bind.hpp:1824:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 10 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_cc.hpp:17:5: note: candidate: template<class R> boost::_bi::bind_t<R, R (*)(), boost::_bi::list0> boost::bind(R (*)())
+     BOOST_BIND(BOOST_BIND_ST R (BOOST_BIND_CC *f) ())
+     ^
+/usr/include/boost/bind/bind_cc.hpp:17:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘R (*)()’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘R (*)()’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_cc.hpp:26:5: note: candidate: template<class R, class B1, class A1> boost::_bi::bind_t<R, R (*)(B1), typename boost::_bi::list_av_1<A1>::type> boost::bind(R (*)(B1), A1)
+     BOOST_BIND(BOOST_BIND_ST R (BOOST_BIND_CC *f) (B1), A1 a1)
+     ^
+/usr/include/boost/bind/bind_cc.hpp:26:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1)’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1)’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_cc.hpp:35:5: note: candidate: template<class R, class B1, class B2, class A1, class A2> boost::_bi::bind_t<R, R (*)(B1, B2), typename boost::_bi::list_av_2<A1, A2>::type> boost::bind(R (*)(B1, B2), A1, A2)
+     BOOST_BIND(BOOST_BIND_ST R (BOOST_BIND_CC *f) (B1, B2), A1 a1, A2 a2)
+     ^
+/usr/include/boost/bind/bind_cc.hpp:35:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1, B2)’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1, B2)’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_cc.hpp:46:5: note: candidate: template<class R, class B1, class B2, class B3, class A1, class A2, class A3> boost::_bi::bind_t<R, R (*)(B1, B2, B3), typename boost::_bi::list_av_3<A1, A2, A3>::type> boost::bind(R (*)(B1, B2, B3), A1, A2, A3)
+     BOOST_BIND(BOOST_BIND_ST R (BOOST_BIND_CC *f) (B1, B2, B3), A1 a1, A2 a2, A3 a3)
+     ^
+/usr/include/boost/bind/bind_cc.hpp:46:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1, B2, B3)’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1, B2, B3)’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_cc.hpp:57:5: note: candidate: template<class R, class B1, class B2, class B3, class B4, class A1, class A2, class A3, class A4> boost::_bi::bind_t<R, R (*)(B1, B2, B3, B4), typename boost::_bi::list_av_4<A1, A2, A3, A4>::type> boost::bind(R (*)(B1, B2, B3, B4), A1, A2, A3, A4)
+     BOOST_BIND(BOOST_BIND_ST R (BOOST_BIND_CC *f) (B1, B2, B3, B4), A1 a1, A2 a2, A3 a3, A4 a4)
+     ^
+/usr/include/boost/bind/bind_cc.hpp:57:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1, B2, B3, B4)’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1, B2, B3, B4)’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_cc.hpp:68:5: note: candidate: template<class R, class B1, class B2, class B3, class B4, class B5, class A1, class A2, class A3, class A4, class A5> boost::_bi::bind_t<R, R (*)(B1, B2, B3, B4, B5), typename boost::_bi::list_av_5<A1, A2, A3, A4, A5>::type> boost::bind(R (*)(B1, B2, B3, B4, B5), A1, A2, A3, A4, A5)
+     BOOST_BIND(BOOST_BIND_ST R (BOOST_BIND_CC *f) (B1, B2, B3, B4, B5), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5)
+     ^
+/usr/include/boost/bind/bind_cc.hpp:68:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1, B2, B3, B4, B5)’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1, B2, B3, B4, B5)’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_cc.hpp:79:5: note: candidate: template<class R, class B1, class B2, class B3, class B4, class B5, class B6, class A1, class A2, class A3, class A4, class A5, class A6> boost::_bi::bind_t<R, R (*)(B1, B2, B3, B4, B5, B6), typename boost::_bi::list_av_6<A1, A2, A3, A4, A5, A6>::type> boost::bind(R (*)(B1, B2, B3, B4, B5, B6), A1, A2, A3, A4, A5, A6)
+     BOOST_BIND(BOOST_BIND_ST R (BOOST_BIND_CC *f) (B1, B2, B3, B4, B5, B6), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6)
+     ^
+/usr/include/boost/bind/bind_cc.hpp:79:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1, B2, B3, B4, B5, B6)’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1, B2, B3, B4, B5, B6)’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_cc.hpp:90:5: note: candidate: template<class R, class B1, class B2, class B3, class B4, class B5, class B6, class B7, class A1, class A2, class A3, class A4, class A5, class A6, class A7> boost::_bi::bind_t<R, R (*)(B1, B2, B3, B4, B5, B6, B7), typename boost::_bi::list_av_7<A1, A2, A3, A4, A5, A6, A7>::type> boost::bind(R (*)(B1, B2, B3, B4, B5, B6, B7), A1, A2, A3, A4, A5, A6, A7)
+     BOOST_BIND(BOOST_BIND_ST R (BOOST_BIND_CC *f) (B1, B2, B3, B4, B5, B6, B7), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7)
+     ^
+/usr/include/boost/bind/bind_cc.hpp:90:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1, B2, B3, B4, B5, B6, B7)’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1, B2, B3, B4, B5, B6, B7)’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_cc.hpp:101:5: note: candidate: template<class R, class B1, class B2, class B3, class B4, class B5, class B6, class B7, class B8, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8> boost::_bi::bind_t<R, R (*)(B1, B2, B3, B4, B5, B6, B7, B8), typename boost::_bi::list_av_8<A1, A2, A3, A4, A5, A6, A7, A8>::type> boost::bind(R (*)(B1, B2, B3, B4, B5, B6, B7, B8), A1, A2, A3, A4, A5, A6, A7, A8)
+     BOOST_BIND(BOOST_BIND_ST R (BOOST_BIND_CC *f) (B1, B2, B3, B4, B5, B6, B7, B8), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8)
+     ^
+/usr/include/boost/bind/bind_cc.hpp:101:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1, B2, B3, B4, B5, B6, B7, B8)’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1, B2, B3, B4, B5, B6, B7, B8)’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_cc.hpp:112:5: note: candidate: template<class R, class B1, class B2, class B3, class B4, class B5, class B6, class B7, class B8, class B9, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8, class A9> boost::_bi::bind_t<R, R (*)(B1, B2, B3, B4, B5, B6, B7, B8, B9), typename boost::_bi::list_av_9<A1, A2, A3, A4, A5, A6, A7, A8, A9>::type> boost::bind(R (*)(B1, B2, B3, B4, B5, B6, B7, B8, B9), A1, A2, A3, A4, A5, A6, A7, A8, A9)
+     BOOST_BIND(BOOST_BIND_ST R (BOOST_BIND_CC *f) (B1, B2, B3, B4, B5, B6, B7, B8, B9), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8, A9 a9)
+     ^
+/usr/include/boost/bind/bind_cc.hpp:112:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1, B2, B3, B4, B5, B6, B7, B8, B9)’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘R (*)(B1, B2, B3, B4, B5, B6, B7, B8, B9)’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:20:5: note: candidate: template<class R, class T, class A1> boost::_bi::bind_t<R, boost::_mfi::mf0<R, T>, typename boost::_bi::list_av_1<A1>::type> boost::bind(R (T::*)(), A1)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (), A1 a1)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:20:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 1 argument, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   candidate expects 1 argument, 2 provided
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:30:5: note: candidate: template<class R, class T, class A1> boost::_bi::bind_t<R, boost::_mfi::cmf0<R, T>, typename boost::_bi::list_av_1<A1>::type> boost::bind(R (T::*)() const, A1)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) () const, A1 a1)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:30:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)() const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)() const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:40:5: note: candidate: template<class Rt2, class R, class T, class A1> boost::_bi::bind_t<Rt2, boost::_mfi::mf0<R, T>, typename boost::_bi::list_av_1<A1>::type> boost::bind(R (T::*)(), A1)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (), A1 a1)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:40:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 1 argument, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   candidate expects 1 argument, 2 provided
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:50:5: note: candidate: template<class Rt2, class R, class T, class A1> boost::_bi::bind_t<Rt2, boost::_mfi::cmf0<R, T>, typename boost::_bi::list_av_1<A1>::type> boost::bind(R (T::*)() const, A1)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) () const, A1 a1)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:50:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)() const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)() const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:63:5: note: candidate: template<class R, class T, class B1, class A1, class A2> boost::_bi::bind_t<R, boost::_mfi::mf1<R, T, A1>, typename boost::_bi::list_av_2<A1, A2>::type> boost::bind(R (T::*)(B1), A1, A2)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1), A1 a1, A2 a2)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:63:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 3 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:74:5: note: candidate: template<class R, class T, class B1, class A1, class A2> boost::_bi::bind_t<R, boost::_mfi::cmf1<R, T, A1>, typename boost::_bi::list_av_2<A1, A2>::type> boost::bind(R (T::*)(B1) const, A1, A2)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1) const, A1 a1, A2 a2)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:74:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)(B1) const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)(B1) const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:85:5: note: candidate: template<class Rt2, class R, class T, class B1, class A1, class A2> boost::_bi::bind_t<Rt2, boost::_mfi::mf1<R, T, B1>, typename boost::_bi::list_av_2<A1, A2>::type> boost::bind(R (T::*)(B1), A1, A2)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1), A1 a1, A2 a2)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:85:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 3 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:96:5: note: candidate: template<class Rt2, class R, class T, class B1, class A1, class A2> boost::_bi::bind_t<Rt2, boost::_mfi::cmf1<R, T, B1>, typename boost::_bi::list_av_2<A1, A2>::type> boost::bind(R (T::*)(B1) const, A1, A2)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1) const, A1 a1, A2 a2)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:96:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)(B1) const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)(B1) const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:109:5: note: candidate: template<class R, class T, class B1, class B2, class A1, class A2, class A3> boost::_bi::bind_t<R, boost::_mfi::mf2<R, T, A1, A2>, typename boost::_bi::list_av_3<A1, A2, A3>::type> boost::bind(R (T::*)(B1, B2), A1, A2, A3)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2), A1 a1, A2 a2, A3 a3)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:109:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 3 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   candidate expects 3 arguments, 2 provided
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:120:5: note: candidate: template<class R, class T, class B1, class B2, class A1, class A2, class A3> boost::_bi::bind_t<R, boost::_mfi::cmf2<R, T, A1, A2>, typename boost::_bi::list_av_3<A1, A2, A3>::type> boost::bind(R (T::*)(B1, B2) const, A1, A2, A3)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2) const, A1 a1, A2 a2, A3 a3)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:120:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2) const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2) const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:131:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class A1, class A2, class A3> boost::_bi::bind_t<Rt2, boost::_mfi::mf2<R, T, B1, B2>, typename boost::_bi::list_av_3<A1, A2, A3>::type> boost::bind(R (T::*)(B1, B2), A1, A2, A3)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2), A1 a1, A2 a2, A3 a3)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:131:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 3 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   candidate expects 3 arguments, 2 provided
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:142:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class A1, class A2, class A3> boost::_bi::bind_t<Rt2, boost::_mfi::cmf2<R, T, B1, B2>, typename boost::_bi::list_av_3<A1, A2, A3>::type> boost::bind(R (T::*)(B1, B2) const, A1, A2, A3)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2) const, A1 a1, A2 a2, A3 a3)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:142:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2) const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2) const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:155:5: note: candidate: template<class R, class T, class B1, class B2, class B3, class A1, class A2, class A3, class A4> boost::_bi::bind_t<R, boost::_mfi::mf3<R, T, A1, A2, A3>, typename boost::_bi::list_av_4<A1, A2, A3, A4>::type> boost::bind(R (T::*)(B1, B2, B3), A1, A2, A3, A4)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3), A1 a1, A2 a2, A3 a3, A4 a4)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:155:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 4 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   candidate expects 4 arguments, 2 provided
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:166:5: note: candidate: template<class R, class T, class B1, class B2, class B3, class A1, class A2, class A3, class A4> boost::_bi::bind_t<R, boost::_mfi::cmf3<R, T, A1, A2, A3>, typename boost::_bi::list_av_4<A1, A2, A3, A4>::type> boost::bind(R (T::*)(B1, B2, B3) const, A1, A2, A3, A4)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3) const, A1 a1, A2 a2, A3 a3, A4 a4)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:166:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3) const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3) const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:177:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class A1, class A2, class A3, class A4> boost::_bi::bind_t<Rt2, boost::_mfi::mf3<R, T, B1, B2, B3>, typename boost::_bi::list_av_4<A1, A2, A3, A4>::type> boost::bind(R (T::*)(B1, B2, B3), A1, A2, A3, A4)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3), A1 a1, A2 a2, A3 a3, A4 a4)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:177:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 4 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   candidate expects 4 arguments, 2 provided
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:188:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class A1, class A2, class A3, class A4> boost::_bi::bind_t<Rt2, boost::_mfi::cmf3<R, T, B1, B2, B3>, typename boost::_bi::list_av_4<A1, A2, A3, A4>::type> boost::bind(R (T::*)(B1, B2, B3) const, A1, A2, A3, A4)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3) const, A1 a1, A2 a2, A3 a3, A4 a4)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:188:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3) const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3) const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:201:5: note: candidate: template<class R, class T, class B1, class B2, class B3, class B4, class A1, class A2, class A3, class A4, class A5> boost::_bi::bind_t<R, boost::_mfi::mf4<R, T, A1, A2, A3, A4>, typename boost::_bi::list_av_5<A1, A2, A3, A4, A5>::type> boost::bind(R (T::*)(B1, B2, B3, B4), A1, A2, A3, A4, A5)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:201:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 5 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   candidate expects 5 arguments, 2 provided
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:212:5: note: candidate: template<class R, class T, class B1, class B2, class B3, class B4, class A1, class A2, class A3, class A4, class A5> boost::_bi::bind_t<R, boost::_mfi::cmf4<R, T, A1, A2, A3, A4>, typename boost::_bi::list_av_5<A1, A2, A3, A4, A5>::type> boost::bind(R (T::*)(B1, B2, B3, B4) const, A1, A2, A3, A4, A5)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4) const, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:212:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4) const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4) const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:223:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class A1, class A2, class A3, class A4, class A5> boost::_bi::bind_t<Rt2, boost::_mfi::mf4<R, T, B1, B2, B3, B4>, typename boost::_bi::list_av_5<A1, A2, A3, A4, A5>::type> boost::bind(R (T::*)(B1, B2, B3, B4), A1, A2, A3, A4, A5)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:223:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 5 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   candidate expects 5 arguments, 2 provided
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:234:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class A1, class A2, class A3, class A4, class A5> boost::_bi::bind_t<Rt2, boost::_mfi::cmf4<R, T, B1, B2, B3, B4>, typename boost::_bi::list_av_5<A1, A2, A3, A4, A5>::type> boost::bind(R (T::*)(B1, B2, B3, B4) const, A1, A2, A3, A4, A5)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4) const, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:234:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4) const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4) const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:247:5: note: candidate: template<class R, class T, class B1, class B2, class B3, class B4, class B5, class A1, class A2, class A3, class A4, class A5, class A6> boost::_bi::bind_t<R, boost::_mfi::mf5<R, T, A1, A2, A3, A4, A5>, typename boost::_bi::list_av_6<A1, A2, A3, A4, A5, A6>::type> boost::bind(R (T::*)(B1, B2, B3, B4, B5), A1, A2, A3, A4, A5, A6)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:247:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 6 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   candidate expects 6 arguments, 2 provided
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:258:5: note: candidate: template<class R, class T, class B1, class B2, class B3, class B4, class B5, class A1, class A2, class A3, class A4, class A5, class A6> boost::_bi::bind_t<R, boost::_mfi::cmf5<R, T, A1, A2, A3, A4, A5>, typename boost::_bi::list_av_6<A1, A2, A3, A4, A5, A6>::type> boost::bind(R (T::*)(B1, B2, B3, B4, B5) const, A1, A2, A3, A4, A5, A6)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5) const, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:258:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4, B5) const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4, B5) const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:269:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class B5, class A1, class A2, class A3, class A4, class A5, class A6> boost::_bi::bind_t<Rt2, boost::_mfi::mf5<R, T, B1, B2, B3, B4, B5>, typename boost::_bi::list_av_6<A1, A2, A3, A4, A5, A6>::type> boost::bind(R (T::*)(B1, B2, B3, B4, B5), A1, A2, A3, A4, A5, A6)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:269:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 6 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   candidate expects 6 arguments, 2 provided
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:280:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class B5, class A1, class A2, class A3, class A4, class A5, class A6> boost::_bi::bind_t<Rt2, boost::_mfi::cmf5<R, T, B1, B2, B3, B4, B5>, typename boost::_bi::list_av_6<A1, A2, A3, A4, A5, A6>::type> boost::bind(R (T::*)(B1, B2, B3, B4, B5) const, A1, A2, A3, A4, A5, A6)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5) const, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:280:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4, B5) const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4, B5) const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:293:5: note: candidate: template<class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class A1, class A2, class A3, class A4, class A5, class A6, class A7> boost::_bi::bind_t<R, boost::_mfi::mf6<R, T, A1, A2, A3, A4, A5, A6>, typename boost::_bi::list_av_7<A1, A2, A3, A4, A5, A6, A7>::type> boost::bind(R (T::*)(B1, B2, B3, B4, B5, B6), A1, A2, A3, A4, A5, A6, A7)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:293:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 7 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   candidate expects 7 arguments, 2 provided
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:304:5: note: candidate: template<class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class A1, class A2, class A3, class A4, class A5, class A6, class A7> boost::_bi::bind_t<R, boost::_mfi::cmf6<R, T, A1, A2, A3, A4, A5, A6>, typename boost::_bi::list_av_7<A1, A2, A3, A4, A5, A6, A7>::type> boost::bind(R (T::*)(B1, B2, B3, B4, B5, B6) const, A1, A2, A3, A4, A5, A6, A7)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6) const, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:304:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4, B5, B6) const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4, B5, B6) const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:315:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class A1, class A2, class A3, class A4, class A5, class A6, class A7> boost::_bi::bind_t<Rt2, boost::_mfi::mf6<R, T, B1, B2, B3, B4, B5, B6>, typename boost::_bi::list_av_7<A1, A2, A3, A4, A5, A6, A7>::type> boost::bind(R (T::*)(B1, B2, B3, B4, B5, B6), A1, A2, A3, A4, A5, A6, A7)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:315:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 7 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   candidate expects 7 arguments, 2 provided
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:326:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class A1, class A2, class A3, class A4, class A5, class A6, class A7> boost::_bi::bind_t<Rt2, boost::_mfi::cmf6<R, T, B1, B2, B3, B4, B5, B6>, typename boost::_bi::list_av_7<A1, A2, A3, A4, A5, A6, A7>::type> boost::bind(R (T::*)(B1, B2, B3, B4, B5, B6) const, A1, A2, A3, A4, A5, A6, A7)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6) const, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:326:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4, B5, B6) const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4, B5, B6) const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:339:5: note: candidate: template<class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class B7, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8> boost::_bi::bind_t<R, boost::_mfi::mf7<R, T, A1, A2, A3, A4, A5, A6, A7>, typename boost::_bi::list_av_8<A1, A2, A3, A4, A5, A6, A7, A8>::type> boost::bind(R (T::*)(B1, B2, B3, B4, B5, B6, B7), A1, A2, A3, A4, A5, A6, A7, A8)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6, B7), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:339:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 8 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   candidate expects 8 arguments, 2 provided
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:350:5: note: candidate: template<class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class B7, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8> boost::_bi::bind_t<R, boost::_mfi::cmf7<R, T, A1, A2, A3, A4, A5, A6, A7>, typename boost::_bi::list_av_8<A1, A2, A3, A4, A5, A6, A7, A8>::type> boost::bind(R (T::*)(B1, B2, B3, B4, B5, B6, B7) const, A1, A2, A3, A4, A5, A6, A7, A8)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6, B7) const, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:350:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4, B5, B6, B7) const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4, B5, B6, B7) const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:361:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class B7, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8> boost::_bi::bind_t<Rt2, boost::_mfi::mf7<R, T, B1, B2, B3, B4, B5, B6, B7>, typename boost::_bi::list_av_8<A1, A2, A3, A4, A5, A6, A7, A8>::type> boost::bind(R (T::*)(B1, B2, B3, B4, B5, B6, B7), A1, A2, A3, A4, A5, A6, A7, A8)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6, B7), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:361:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 8 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   candidate expects 8 arguments, 2 provided
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:372:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class B7, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8> boost::_bi::bind_t<Rt2, boost::_mfi::cmf7<R, T, B1, B2, B3, B4, B5, B6, B7>, typename boost::_bi::list_av_8<A1, A2, A3, A4, A5, A6, A7, A8>::type> boost::bind(R (T::*)(B1, B2, B3, B4, B5, B6, B7) const, A1, A2, A3, A4, A5, A6, A7, A8)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6, B7) const, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:372:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4, B5, B6, B7) const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4, B5, B6, B7) const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:385:5: note: candidate: template<class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class B7, class B8, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8, class A9> boost::_bi::bind_t<R, boost::_mfi::mf8<R, T, A1, A2, A3, A4, A5, A6, A7, A8>, typename boost::_bi::list_av_9<A1, A2, A3, A4, A5, A6, A7, A8, A9>::type> boost::bind(R (T::*)(B1, B2, B3, B4, B5, B6, B7, B8), A1, A2, A3, A4, A5, A6, A7, A8, A9)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6, B7, B8), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8, A9 a9)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:385:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 9 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   candidate expects 9 arguments, 2 provided
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:396:5: note: candidate: template<class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class B7, class B8, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8, class A9> boost::_bi::bind_t<R, boost::_mfi::cmf8<R, T, A1, A2, A3, A4, A5, A6, A7, A8>, typename boost::_bi::list_av_9<A1, A2, A3, A4, A5, A6, A7, A8, A9>::type> boost::bind(R (T::*)(B1, B2, B3, B4, B5, B6, B7, B8) const, A1, A2, A3, A4, A5, A6, A7, A8, A9)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6, B7, B8) const, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8, A9 a9)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:396:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4, B5, B6, B7, B8) const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4, B5, B6, B7, B8) const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:407:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class B7, class B8, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8, class A9> boost::_bi::bind_t<Rt2, boost::_mfi::mf8<R, T, B1, B2, B3, B4, B5, B6, B7, B8>, typename boost::_bi::list_av_9<A1, A2, A3, A4, A5, A6, A7, A8, A9>::type> boost::bind(R (T::*)(B1, B2, B3, B4, B5, B6, B7, B8), A1, A2, A3, A4, A5, A6, A7, A8, A9)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6, B7, B8), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8, A9 a9)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:407:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   candidate expects 9 arguments, 2 provided
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   candidate expects 9 arguments, 2 provided
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf_cc.hpp:418:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class B7, class B8, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8, class A9> boost::_bi::bind_t<Rt2, boost::_mfi::cmf8<R, T, B1, B2, B3, B4, B5, B6, B7, B8>, typename boost::_bi::list_av_9<A1, A2, A3, A4, A5, A6, A7, A8, A9>::type> boost::bind(R (T::*)(B1, B2, B3, B4, B5, B6, B7, B8) const, A1, A2, A3, A4, A5, A6, A7, A8, A9)
+     BOOST_BIND(R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6, B7, B8) const, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8, A9 a9)
+     ^
+/usr/include/boost/bind/bind_mf_cc.hpp:418:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4, B5, B6, B7, B8) const’ and ‘void (std::promise<int>::)(int&&)’ have incompatible cv-qualifiers
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   types ‘R (T::)(B1, B2, B3, B4, B5, B6, B7, B8) const’ and ‘void (std::promise<int>::)(const int&)’ have incompatible cv-qualifiers
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:21:5: note: candidate: template<class Rt2, class R, class T, class A1> boost::_bi::bind_t<Rt2, boost::_mfi::mf0<R, T>, typename boost::_bi::list_av_1<A1>::type> boost::bind(boost::type<R>, R (T::*)(), A1)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) (), A1 a1)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:21:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:31:5: note: candidate: template<class Rt2, class R, class T, class A1> boost::_bi::bind_t<Rt2, boost::_mfi::cmf0<R, T>, typename boost::_bi::list_av_1<A1>::type> boost::bind(boost::type<R>, R (T::*)() const, A1)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) () const, A1 a1)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:31:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:44:5: note: candidate: template<class Rt2, class R, class T, class B1, class A1, class A2> boost::_bi::bind_t<Rt2, boost::_mfi::mf1<R, T, B1>, typename boost::_bi::list_av_2<A1, A2>::type> boost::bind(boost::type<R>, R (T::*)(B1), A1, A2)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) (B1), A1 a1, A2 a2)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:44:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:55:5: note: candidate: template<class Rt2, class R, class T, class B1, class A1, class A2> boost::_bi::bind_t<Rt2, boost::_mfi::cmf1<R, T, B1>, typename boost::_bi::list_av_2<A1, A2>::type> boost::bind(boost::type<R>, R (T::*)(B1) const, A1, A2)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) (B1) const, A1 a1, A2 a2)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:55:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:68:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class A1, class A2, class A3> boost::_bi::bind_t<Rt2, boost::_mfi::mf2<R, T, B1, B2>, typename boost::_bi::list_av_3<A1, A2, A3>::type> boost::bind(boost::type<R>, R (T::*)(B1, B2), A1, A2, A3)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) (B1, B2), A1 a1, A2 a2, A3 a3)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:68:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:79:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class A1, class A2, class A3> boost::_bi::bind_t<Rt2, boost::_mfi::cmf2<R, T, B1, B2>, typename boost::_bi::list_av_3<A1, A2, A3>::type> boost::bind(boost::type<R>, R (T::*)(B1, B2) const, A1, A2, A3)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) (B1, B2) const, A1 a1, A2 a2, A3 a3)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:79:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:92:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class A1, class A2, class A3, class A4> boost::_bi::bind_t<Rt2, boost::_mfi::mf3<R, T, B1, B2, B3>, typename boost::_bi::list_av_4<A1, A2, A3, A4>::type> boost::bind(boost::type<R>, R (T::*)(B1, B2, B3), A1, A2, A3, A4)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3), A1 a1, A2 a2, A3 a3, A4 a4)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:92:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:103:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class A1, class A2, class A3, class A4> boost::_bi::bind_t<Rt2, boost::_mfi::cmf3<R, T, B1, B2, B3>, typename boost::_bi::list_av_4<A1, A2, A3, A4>::type> boost::bind(boost::type<R>, R (T::*)(B1, B2, B3) const, A1, A2, A3, A4)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3) const, A1 a1, A2 a2, A3 a3, A4 a4)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:103:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:116:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class A1, class A2, class A3, class A4, class A5> boost::_bi::bind_t<Rt2, boost::_mfi::mf4<R, T, B1, B2, B3, B4>, typename boost::_bi::list_av_5<A1, A2, A3, A4, A5>::type> boost::bind(boost::type<R>, R (T::*)(B1, B2, B3, B4), A1, A2, A3, A4, A5)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:116:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:127:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class A1, class A2, class A3, class A4, class A5> boost::_bi::bind_t<Rt2, boost::_mfi::cmf4<R, T, B1, B2, B3, B4>, typename boost::_bi::list_av_5<A1, A2, A3, A4, A5>::type> boost::bind(boost::type<R>, R (T::*)(B1, B2, B3, B4) const, A1, A2, A3, A4, A5)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4) const, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:127:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:140:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class B5, class A1, class A2, class A3, class A4, class A5, class A6> boost::_bi::bind_t<Rt2, boost::_mfi::mf5<R, T, B1, B2, B3, B4, B5>, typename boost::_bi::list_av_6<A1, A2, A3, A4, A5, A6>::type> boost::bind(boost::type<R>, R (T::*)(B1, B2, B3, B4, B5), A1, A2, A3, A4, A5, A6)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:140:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:151:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class B5, class A1, class A2, class A3, class A4, class A5, class A6> boost::_bi::bind_t<Rt2, boost::_mfi::cmf5<R, T, B1, B2, B3, B4, B5>, typename boost::_bi::list_av_6<A1, A2, A3, A4, A5, A6>::type> boost::bind(boost::type<R>, R (T::*)(B1, B2, B3, B4, B5) const, A1, A2, A3, A4, A5, A6)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5) const, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:151:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:164:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class A1, class A2, class A3, class A4, class A5, class A6, class A7> boost::_bi::bind_t<Rt2, boost::_mfi::mf6<R, T, B1, B2, B3, B4, B5, B6>, typename boost::_bi::list_av_7<A1, A2, A3, A4, A5, A6, A7>::type> boost::bind(boost::type<R>, R (T::*)(B1, B2, B3, B4, B5, B6), A1, A2, A3, A4, A5, A6, A7)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:164:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:175:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class A1, class A2, class A3, class A4, class A5, class A6, class A7> boost::_bi::bind_t<Rt2, boost::_mfi::cmf6<R, T, B1, B2, B3, B4, B5, B6>, typename boost::_bi::list_av_7<A1, A2, A3, A4, A5, A6, A7>::type> boost::bind(boost::type<R>, R (T::*)(B1, B2, B3, B4, B5, B6) const, A1, A2, A3, A4, A5, A6, A7)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6) const, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:175:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:188:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class B7, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8> boost::_bi::bind_t<Rt2, boost::_mfi::mf7<R, T, B1, B2, B3, B4, B5, B6, B7>, typename boost::_bi::list_av_8<A1, A2, A3, A4, A5, A6, A7, A8>::type> boost::bind(boost::type<R>, R (T::*)(B1, B2, B3, B4, B5, B6, B7), A1, A2, A3, A4, A5, A6, A7, A8)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6, B7), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:188:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:199:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class B7, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8> boost::_bi::bind_t<Rt2, boost::_mfi::cmf7<R, T, B1, B2, B3, B4, B5, B6, B7>, typename boost::_bi::list_av_8<A1, A2, A3, A4, A5, A6, A7, A8>::type> boost::bind(boost::type<R>, R (T::*)(B1, B2, B3, B4, B5, B6, B7) const, A1, A2, A3, A4, A5, A6, A7, A8)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6, B7) const, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:199:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:212:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class B7, class B8, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8, class A9> boost::_bi::bind_t<Rt2, boost::_mfi::mf8<R, T, B1, B2, B3, B4, B5, B6, B7, B8>, typename boost::_bi::list_av_9<A1, A2, A3, A4, A5, A6, A7, A8, A9>::type> boost::bind(boost::type<R>, R (T::*)(B1, B2, B3, B4, B5, B6, B7, B8), A1, A2, A3, A4, A5, A6, A7, A8, A9)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6, B7, B8), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8, A9 a9)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:212:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind_mf2_cc.hpp:223:5: note: candidate: template<class Rt2, class R, class T, class B1, class B2, class B3, class B4, class B5, class B6, class B7, class B8, class A1, class A2, class A3, class A4, class A5, class A6, class A7, class A8, class A9> boost::_bi::bind_t<Rt2, boost::_mfi::cmf8<R, T, B1, B2, B3, B4, B5, B6, B7, B8>, typename boost::_bi::list_av_9<A1, A2, A3, A4, A5, A6, A7, A8, A9>::type> boost::bind(boost::type<R>, R (T::*)(B1, B2, B3, B4, B5, B6, B7, B8) const, A1, A2, A3, A4, A5, A6, A7, A8, A9)
+     BOOST_BIND(boost::type<Rt2>, R (BOOST_BIND_MF_CC T::*f) (B1, B2, B3, B4, B5, B6, B7, B8) const, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8, A9 a9)
+     ^
+/usr/include/boost/bind/bind_mf2_cc.hpp:223:5: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(int&&)’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^
+client.cpp:47:87: note:   mismatched types ‘boost::type<R>’ and ‘void (std::promise<int>::*)(const int&)’
+client.cpp:47:87: note:   could not resolve address from overloaded function ‘& std::promise<_Res>::set_value<int>’
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from client.cpp:7:
+/usr/include/boost/bind/bind.hpp:2016:1: note: candidate: template<class A1, class M, class T> boost::_bi::bind_t<typename boost::_bi::dm_result<M T::*, A1>::type, boost::_mfi::dm<M, T>, typename boost::_bi::list_av_1<A1>::type> boost::bind(M T::*, A1)
+ BOOST_BIND( M T::*f, A1 a1 )
+ ^
+/usr/include/boost/bind/bind.hpp:2016:1: note:   template argument deduction/substitution failed:
+client.cpp:47:87: note:   couldn't deduce template parameter ‘M’
+                                         boost::bind(&promise_type::set_value, &promise)));
+                                                                                       ^

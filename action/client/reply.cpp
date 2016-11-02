@@ -3,7 +3,7 @@
 #include <cstdlib>
 #include <ctutkernel/log.hpp>
 namespace http{
-	namespace server{
+	namespace client{
         std::vector<boost::asio::const_buffer> reply::to_buffer(){
             /*
             std::array<char,1024> buffer_;

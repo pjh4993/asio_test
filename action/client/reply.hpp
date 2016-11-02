@@ -4,7 +4,7 @@
 #include <vector>
 #include <boost/asio.hpp>
 namespace http{
-	namespace server{
+	namespace client{
 		struct reply{
 			enum status_type{
 				ok = 200,

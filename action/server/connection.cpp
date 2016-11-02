@@ -1,6 +1,7 @@
 #include "connection.hpp"
 #include <utility>
 #include <vector>
+#include <array>
 #include <string>
 #include <ctutkernel/log.hpp>
 #include "connection_manager.hpp"
@@ -35,7 +36,7 @@ namespace http{
 								do_write();
 							}else if(result == request_parser::bad){
 								dlog("connection::do_read","request_parser::bad");
-								reply_ = reply::stock_reply(reply::bad_request);
+								reply::stock_reply(reply::bad_request);
 								do_write();
 							}else{
 								dlog("connection::do_read","request_parser::indeterminate");
@@ -48,16 +49,21 @@ namespace http{
 		}
 		void connection::do_write(){
 			auto self(shared_from_this());
-			boost::asio::async_write(socket_,boost::asio::buffer(reply_.to_buffer(sizeof(reply_)),sizeof(reply_)),
+			dlog("connection::do_write","sizeof reply_"+std::to_string(sizeof(reply_)));
+            /*
+			boost::asio::async_write(socket_,reply_.to_buffer(),
 					[this,self](boost::system::error_code ec, std::size_t size){
 						if(!ec){
+							dlog("connection::do_write","normal reaction");
 							boost::system::error_code ignored_ec;
 							socket_.shutdown(boost::asio::ip::tcp::socket::shutdown_both,ignored_ec);
 						}
 						if(ec != boost::asio::error::operation_aborted){
+							dlog("connection::do_write","error caused ");
 							connection_manager_.stop(shared_from_this());
 						}
 					});
+                    */
 		}
 	}
 }
